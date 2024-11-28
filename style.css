@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     color: #E0E0E0;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-family: "Creepster", cursive; 
+    font-family: "Permanent Marker", cursive; 
     font-size: 3rem;
     color: #00FFFF; 
     text-shadow: 0 0 20px #00FFFF, 0 0 30px #00FFFF;
@@ -20,7 +20,7 @@ h1 {
 button {
     background-color: #333333;
     color: #FFFFFF;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Roboto", sans-serif;
     border: 2px solid #E0E0E0;
     padding: 10px 20px;
     margin: 10px;
