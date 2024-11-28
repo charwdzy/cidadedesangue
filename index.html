@@ -11,63 +11,74 @@
     <main>
         <h1>Cidade de Sangue</h1>
         <div class="passo ativo" id="passo-0">
-            <p>Você mora em uma cidade atualmente distópica. coisas estranhas estão acontecendo a um tempo. Pessoas desaparecendo misteriosamente, casos sangrentos e corpos sendo encontrados com cortes e arranhões profundos e depois do último caso, a água da torneira se tornou sangue, você sabe que a polícia está com medo e vai deixar isso de lado. Você decide investigar por conta própria.</p>
+            <p>Você mora em uma cidade atualmente distópica. Coisas estranhas estão acontecendo há um tempo. Pessoas desaparecendo misteriosamente, casos sangrentos e corpos sendo encontrados com cortes e arranhões profundos. Depois do último caso, a água da torneira se tornou sangue. Você sabe que a polícia está com medo e vai deixar isso de lado. Você decide investigar por conta própria.</p>
             <button class="btn-proximo" data-proximo="1">Investigar a rede de esgoto</button>
             <button class="btn-proximo" data-proximo="2">Investigar a represa</button>
         </div>
-     
+
+        <!-- Esgoto -->
         <div class="passo" id="passo-1">
             <p>No esgoto, você vê manchas de sangue e ratos fugindo pelo lado contrário.</p>
             <button class="btn-proximo" data-proximo="2">Seguir os ratos</button>
             <button class="btn-proximo" data-proximo="3">Seguir os rastros de sangue</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>Seguindo os rastros, você encontra um monstro. Você tenta:</p>
+            <p>Seguindo os rastros, você encontra um monstro assustador. Você tenta:</p>
             <button class="btn-proximo" data-proximo="4">Ir embora</button>
             <button class="btn-proximo" data-proximo="5">Atacar o monstro</button>
         </div>
         <div class="passo" id="passo-4">
             <p>Você consegue fugir antes que o monstro te veja.</p>
-            <button class="btn-proximo" data-proximo="2">Você tenta lutar contra o monstro, mas ele é muito forte. Bom, acho que isso não foi uma boa ideia por que ele não parece muito preocupado em matar mais um. Fim de jogo.</button>
+            <button class="btn-proximo" data-proximo="2">Voltar para a represa</button>
         </div>
-        
+        <div class="passo" id="passo-5">
+            <p>Você tenta lutar contra o monstro, mas ele é muito forte. Ele não parece preocupado em matar mais um. Você morreu.</p>
+        </div>
+
+        <!-- Represa -->
         <div class="passo" id="passo-2">
-            <p>Em uma das ruas, a caminho da represa, você ouve gritos de um casal brigando.</p>
+            <p>Em uma das ruas, a caminho da represa, você ouve gritos de um casal brigando vindos de uma viela próxima. Parece que eles precisam de ajuda. Você decide ajudar?</p>
             <button class="btn-proximo" data-proximo="6">Ajudar o casal</button>
             <button class="btn-proximo" data-proximo="7">Ir embora</button>
         </div>
         <div class="passo" id="passo-6">
-            <p>O homem acha que você é amante de sua mulher, bem, ele é um pouco agressivo e está com uma faca, acho que isso não foi uma boa ideia. Fim de jogo.</p>
-        </div>
+                        <p>O homem acha que você é amante de sua mulher, bem, ele é um pouco agressivo e está com uma faca, acho que isso não foi uma boa ideia. Fim de jogo.</p>        </div>
         <div class="passo" id="passo-7">
-            <p>Um homem corre em sua direção e te entrega uma carta: "Feche os portões. Peça ajuda ao padre." O padre é considerado louco na sua cidade, será que seria uma boa confiar nele?</p>
-            <button class="btn-proximo" data-proximo="8">Confiar no padre</button>
-            <button class="btn-proximo" data-proximo="9">Ignorar o padre</button>
+            <p>Você ignora os gritos e segue o caminho. De repente, um homem aparece correndo, entrega uma carta para você e desaparece.</p>
+            <button class="btn-proximo" data-proximo="8">Ler a carta</button>
         </div>
-        
         <div class="passo" id="passo-8">
-            <p>O padre te leva ao cemitério, onde ouvem um barulho.</p>
-            <button class="btn-proximo" data-proximo="10">Ir embora</button>
-            <button class="btn-proximo" data-proximo="11">Investigar</button>
+            <p>A carta diz: "Feche aqueles portões, aquelas criaturas não são desse mundo. Peça ao padre para te ajudar." O padre da cidade é considerado louco. Você confia nele?</p>
+            <button class="btn-proximo" data-proximo="9">Confiar no padre</button>
+            <button class="btn-proximo" data-proximo="10">Não confiar no padre</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você busca ajuda com o padre. Ele menciona barulhos no cemitério local e decide ir com você até lá. Ao chegarem, vocês ouvem um barulho assustador. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="11">Ir embora</button>
+            <button class="btn-proximo" data-proximo="12">Investigar o barulho</button>
         </div>
         <div class="passo" id="passo-10">
-            <p>Ao sair, você se depara com uma criatura, ela te mata. Fim de jogo.</p>
+            <p>Você decide não confiar no padre e volta para a rua. Uma criatura aparece e te ataca. Você morreu.</p>
         </div>
         <div class="passo" id="passo-11">
-            <p>Você vê uma mulher pegando ossos humanos e levando a algum lugar.</p>
-            <button class="btn-proximo" data-proximo="12">Seguir a mulher</button>
-            <button class="btn-proximo" data-proximo="10">Ir embora</button>
+            <p>Ao tentar ir embora, uma criatura aparece e te mata. Você morreu.</p>
         </div>
         <div class="passo" id="passo-12">
-            <p>A mulher leva você a uma casa abandonada, vocês entram sorrateiramente. Ao entrar percebe que a mulher que está causando tudo aquilo, fazendo poções para as criaturas monstruosas saírem dos portões. Ela sai para pegar mais ossos e você e o padre tentam fechar os portões. A mulher volta e te encontra, com raiva, ela começa a correr atrás de você</p>
-            <button class="btn-proximo" data-proximo="13">Despistar a mulher na floresta</button>
-            <button class="btn-proximo" data-proximo="14">Matar a mulher</button>
+            <p>Investigando o barulho, vocês veem uma mulher pegando ossos humanos no cemitério. Seguir a mulher?</p>
+            <button class="btn-proximo" data-proximo="13">Seguir a mulher</button>
+            <button class="btn-proximo" data-proximo="11">Não seguir</button>
         </div>
         <div class="passo" id="passo-13">
-            <p>Você entra na floresta enquanto ela corre atrás de você, você tenta fazer ela te perder de vista e ficar presa. Infelizmente você prende o pé em alguma coisa, você cai bate a cabeça e quando começa a recobrar a consciência, só consegue sentir a dor de uma facada no coração, facada essa dada pela mulher. Bom, isso não foi uma boa ideia</p>
+            <p>A mulher leva até uma casa abandonada. Lá, vocês tentam fechar o portão de onde as criaturas vêm. A mulher volta e percebe vocês. O padre pede para você lidar com ela.</p>
+            <button class="btn-proximo" data-proximo="14">Despistar a mulher</button>
+            <button class="btn-proximo" data-proximo="15">Matar a mulher</button>
         </div>
         <div class="passo" id="passo-14">
-            <p>Você não pensa duas vezes antes de pegar um copo e arremessar na cabeça dela, ela cai no chão um pouco desnorteada. Com um caco de vidro no chão, você não pensa duas vezes antes de afundar esse caco na traquéia dela. Ao voltar para perto do padre, percebe que ele está realizando um ritual e conseguiu fechar o portao. Parabéns, você resolveu o mistério!</p>
+            <p>Você entra na floresta enquanto ela corre atrás de você, você tenta fazer ela te perder de vista e ficar presa. Infelizmente você prende o pé em alguma coisa, você cai bate a cabeça e quando começa a recobrar a consciência, só consegue sentir a dor de uma facada no coração, facada essa dada pela mulher. Bom, isso não foi uma boa ideia</p>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Você não pensa duas vezes antes de pegar um copo e arremessar na cabeça dela, ela cai no chão um pouco desnorteada. Com um caco de vidro no chão, você não pensa duas vezes antes de afundar esse caco na traquéia dela. Ao voltar para perto do padre, percebe que ele está realizando um ritual e conseguiu fechar o portao. Parabéns, você resolveu o mistério!
+(por enquanto)</p>
         </div>
     </main>
     <script src="script.js"></script>
