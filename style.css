@@ -1,7 +1,7 @@
 body {
-    background-color: #000000;
-    color: #B22222; 
-    font-family: "Times New Roman", serif; 
+    background-color: #000000; /* Fundo preto */
+    color: #8B0000; /* Vermelho vinho */
+    font-family: "Times New Roman", serif; /* Fonte clássica */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,29 +9,18 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-family: "Georgia", serif; 
-    font-size: 3rem;
-    color: #B22222; 
-    text-shadow: 0 0 20px #B22222, 0 0 30px #B22222;
-    margin-bottom: 20px;
-}
-
 button {
-    background-color: #333333;
-    color: #FFFFFF;
-    font-family: "Times New Roman", serif;
-    border: 2px solid #E0E0E0;
+    background-color: #8B0000; /* Vermelho vinho */
+    color: white; /* Texto branco */
+    font-family: "Times New Roman", serif; /* Fonte clássica */
+    border: none;
     padding: 10px 20px;
-    margin: 10px;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 button:hover {
-    background-color: #666666;
-    color: #000000;
-    border-color: #B22222;
+    background-color: #A52A2A; /* Um tom mais claro de vermelho vinho no hover */
 }
 
 .passo {
